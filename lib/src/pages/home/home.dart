@@ -58,7 +58,8 @@ class _HomeState extends State<Home> {
                 width: 328,
                 height: 110,
                 child: ElevatedButton(
-                  onPressed: () => Navigator.pushNamed(context, '/compostbin'),
+                  onPressed: () =>
+                      Navigator.pushNamed(context, '/vermicomposting'),
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
@@ -69,7 +70,7 @@ class _HomeState extends State<Home> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       const Text(
-                        'Composteiras',
+                        'Vermicompostagem',
                         style: TextStyle(
                           fontSize: 20,
                         ),
