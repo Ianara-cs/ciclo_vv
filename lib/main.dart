@@ -1,7 +1,9 @@
+import 'package:ciclo_vv/src/pages/compostBinCareScreen/summer_care_screen.dart';
+import 'package:ciclo_vv/src/pages/compostBinCareScreen/winter_care_screen.dart';
 import 'package:ciclo_vv/src/pages/compostBinScreen/compost_bin_screen.dart';
 import 'package:ciclo_vv/src/pages/compoundsScreen/compounds_screen.dart';
+import 'package:ciclo_vv/src/pages/earthwormDetailsScreen/earthworm_details_screen.dart';
 import 'package:ciclo_vv/src/pages/home/home.dart';
-import 'package:ciclo_vv/src/pages/summerCareScreen/summer_care_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,6 +28,8 @@ class MyApp extends StatelessWidget {
         '/compounds': (context) => const CompoundsScreen(),
         '/compostbin': (context) => const CompostBinStrcreen(),
         '/summercare': (context) => const SummerCareScreen(),
+        '/wintercare': (context) => const WinterCareScreen(),
+        '/earthwormdetails': (context) => const EarthwormDetailsScreen(),
       },
     );
   }

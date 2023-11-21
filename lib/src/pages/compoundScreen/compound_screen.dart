@@ -74,6 +74,7 @@ class _CompoundScreenState extends State<CompoundScreen> {
                                 height: 1.5,
                                 fontSize: 16,
                               ),
+                              textAlign: TextAlign.justify,
                             ),
                           ),
                         ),

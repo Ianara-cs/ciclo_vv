@@ -47,7 +47,8 @@ class _CompostBinStrcreenState extends State<CompostBinStrcreen> {
                 width: MediaQuery.of(context).size.width - 20,
                 height: 110,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () =>
+                      Navigator.pushNamed(context, '/earthwormdetails'),
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
@@ -58,7 +59,7 @@ class _CompostBinStrcreenState extends State<CompostBinStrcreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'Detalhes sobre minhocas',
+                        'Detalhes sobre as minhocas',
                         style: TextStyle(
                           fontSize: 16,
                         ),
@@ -99,7 +100,7 @@ class _CompostBinStrcreenState extends State<CompostBinStrcreen> {
                 width: MediaQuery.of(context).size.width - 20,
                 height: 110,
                 child: ElevatedButton(
-                  onPressed: () => (),
+                  onPressed: () => Navigator.pushNamed(context, '/wintercare'),
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
