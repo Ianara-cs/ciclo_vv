@@ -4,6 +4,7 @@ import 'package:ciclo_vv/src/pages/compostBinScreen/compost_bin_screen.dart';
 import 'package:ciclo_vv/src/pages/compoundsScreen/compounds_screen.dart';
 import 'package:ciclo_vv/src/pages/earthwormDetailsScreen/earthworm_details_screen.dart';
 import 'package:ciclo_vv/src/pages/home/home.dart';
+import 'package:ciclo_vv/src/pages/possibleProblemsScreen/possible_problems_screen.dart';
 import 'package:ciclo_vv/src/pages/vermicompostingBinScreen/vermicomposting_bin_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -20,6 +21,10 @@ class MyApp extends StatelessWidget {
       title: 'Ciclo VV',
       theme: ThemeData(
         primarySwatch: Colors.brown,
+        textTheme: TextTheme(
+            bodyMedium: TextStyle(
+          fontFamily: 'San Francisco',
+        )),
         scaffoldBackgroundColor: const Color(0xFEFEFEFE),
       ),
       debugShowCheckedModeBanner: false,
@@ -32,6 +37,7 @@ class MyApp extends StatelessWidget {
         '/wintercare': (context) => const WinterCareScreen(),
         '/earthwormdetails': (context) => const EarthwormDetailsScreen(),
         '/compost_bin': (context) => const CompostBinScreen(),
+        '/possibleproblems': (context) => const PossibleProblemsScreen(),
       },
     );
   }

@@ -88,7 +88,8 @@ class _HomeState extends State<Home> {
                 width: 328,
                 height: 110,
                 child: ElevatedButton(
-                  onPressed: () => (),
+                  onPressed: () =>
+                      Navigator.pushNamed(context, '/possibleproblems'),
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
