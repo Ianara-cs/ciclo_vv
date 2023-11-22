@@ -67,6 +67,13 @@ flutter:
     - images/compounds/carne.jpg
     - images/compounds/Legumes.jpg
     - images/compounds/frutas.jpg
+    - images/compounds/gordura.jpg
+    - images/compounds/laticinio.jpg
+    - images/compounds/processados.jpg
+    - images/compounds/borra-cafe.jpg
+    - images/compounds/casca-ovo.jpg
+    - images/compounds/sementes.jpg
+    - images/compounds/materia-seca.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
